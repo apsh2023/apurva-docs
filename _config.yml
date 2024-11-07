@@ -5,11 +5,12 @@ baseurl: "" # Leave empty for GitHub Pages
 url: "https://yourusername.github.io" # Your GitHub Pages URL
 
 # GitHub Pages theme
-remote_theme: pages-themes/architect@v0.2.0
+remote_theme: "pages-themes/architect@v0.2.0"
+
+# Plugins for GitHub Pages
 plugins:
-- jekyll-remote-theme
-- jekyll-feed
-- jekyll-sitemap
+  - jekyll-feed
+  - jekyll-sitemap
 
 # Optional settings for SEO
 author: "Apurva Sharma"
@@ -25,5 +26,3 @@ exclude:
 # Markdown and Highlighter
 markdown: kramdown
 highlighter: rouge
-
-
